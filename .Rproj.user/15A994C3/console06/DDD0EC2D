@@ -1,0 +1,240 @@
+[0m[0KMicrosoft Windows [Version 6.1.7601][0K[?25l
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.[0K
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git i[0K[?25hn[0Ki[0Kt[0K]0;  - git  init[?25l
+[0K[?25h]0; Initialized empty Git repository in C:/Users/nija/Documents/UFCData/UFCAnalysis/.git/[0K[?25l
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commi[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git comm[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git com[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git co[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git c[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git[0K[49G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git s[0K[?25ht[0KA[0KT[0KU[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git stAT[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git stA[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git st[0K[?25ha[0Kt[0Ku[0Ksd[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git status[0K[?25h]0;  - git  status[?25l
+[0K[?25h]0; On branch master[0K[?25l
+[0K
+No commits yet[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.RData[0m[0K
+        [0;31m.Rhistory[0m[0K
+        [0;31m.Rproj.user/[0m[0K
+        [0;31mFeature Importance.png[0m[0K
+        [0;31mUFCAnalysis.Rproj[0m[0K
+        [0;31mUFCAnalysis.py[0m[0K
+        [0;31mUFC_FeatSel.R[0m[0K
+        [0;31mcreateFighterStats.R[0m[0K
+        [0;31mdata.csv[0m[0K
+        [0;31mget_UFCData.R[0m[0K
+        [0;31mmodelAllData.R[0m[0K
+[0K
+nothing added to commit but untracked files present (use "git add" to track)[0K
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[56G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -[0K[?25h[58G[57G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m[0K[?25h[59G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "[0K[?25h"[0K[60G[59G[60G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "i"[0K[61G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "in"[0K[62G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "ini"[0K[63G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "inis"[0K[64G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "ini"[0K[63G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "in"[0K[62G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "ini"[0K[63G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "init"[0K[64G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initi"[0K[65G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initia"[0K[66G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial"[0K[67G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial "[0K[68G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial e"[0K[69G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial ex"[0K[70G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exp"[0K[71G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial expl"[0K[72G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial explo"[0K[73G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial explor"[0K[74G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial explora"[0K[75G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial explorat"[0K[76G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial explorato"[0K[77G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial explorator"[0K[78G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory"[0K[79G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory "[0K[80G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory a"[0K[81G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory as"[0K[82G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory asn"[0K[83G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory as"[0K[82G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory a"[0K[81G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory anb"[0K[83G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory anba"[0K[84G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory anb"[0K[83G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory an"[0K[82G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory ana"[0K[83G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory anal"[0K[84G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analy"[0K[85G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analys"[0K[86G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysi"[0K[87G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis"[0K[88G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis "[0K[89G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis o"[0K[90G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of"[0K[91G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of "[0K[92G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2"[0K[93G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 20"[0K[94G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 201"[0K[95G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012"[0K[96G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 "[0K[97G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 U"[0K[98G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UD"[0K[99G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 U"[0K[98G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UF"[0K[99G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC"[0K[100G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC "[0K[101G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC f"[0K[102G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC fi"[0K[103G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC fig"[0K[104G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC figh"[0K[105G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC fight"[0K[106G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC fight "[0K[107G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC fight d"[0K[108G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC fight da"[0K[109G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC fight data"[0K[111G[?25h]0;  - git  commit -m "initial exploratory analysis of 2012 UFC fight data"[?25l
+[0K[?25h]0; On branch master[0K[?25l
+[0K
+Initial commit[0K
+[0K
+Untracked files:[0K
+        [0;31m.RData[0m[0K
+        [0;31m.Rhistory[0m[0K
+        [0;31m.Rproj.user/[0m[0K
+        [0;31mFeature Importance.png[0m[0K
+        [0;31mUFCAnalysis.Rproj[0m[0K
+        [0;31mUFCAnalysis.py[0m[0K
+        [0;31mUFC_FeatSel.R[0m[0K
+        [0;31mcreateFighterStats.R[0m[0K
+        [0;31mdata.csv[0m[0K
+        [0;31mget_UFCData.R[0m[0K
+        [0;31mmodelAllData.R[0m[0K
+[0K
+nothing added to commit but untracked files present[0K
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[48G[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git ^V[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git[0K[49G[?25h[48G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>gi[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>g[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hgit remote add origin git@github.com:zone86/UFC_Data_Analysis.git[0K]0;  - git  remote add origin git@github.com:zone86/UFC_Data_Analysis.git[?25l
+[0K[?25h]0; [?25l
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git p[0K[?25hu[0Ky[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git pu[0K[?25hs[0Kh[0K[54G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push -[0K[?25hu[0K[57G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push -u o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[64G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push -u origin m[0K[?25ha[0Ks[0Ktr[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push -u origin mast[0K[?25he[0Kr[0K]0;  - git  push -u origin master[?25l
+[0K[?25h]0; error: src refspec master does not match any.[0K[?25l
+error: failed to push some refs to 'git@github.com:zone86/UFC_Data_Analysis.git'[0K
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git a[0K[?25hd[0Kd[0K[53G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git add .[0K[?25h]0;  - git  add .[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rhistory.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/pcs/debug-breakpoints.pper.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/pcs/files-pane.pper.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/15A994C3/pcs/packages-pane.pper.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/pcs/source-pane.pper.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/pcs/windowlayoutstate.pper.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/pcs/workbench-pane.pper.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/persistent-state.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/rmd-outputs.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/prop/4E4F9855.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/prop/C1806F65.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/prop/E1721342.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/prop/F85794FA.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/prop/INDEX.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/s-DD9CE50D/523B9F26.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/s-DD9CE50D/523B9F26-contents.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/s-DD9CE50D/5FD80897.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/s-DD9CE50D/5FD80897-contents.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/s-DD9CE50D/84B538FA.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/s-DD9CE50D/84B538FA-contents.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/s-DD9CE50D/F7978B0A.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/15A994C3/sources/s-DD9CE50D/F7978B0A-contents.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in data.csv.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25h]0; [?25l
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25h]0;  - git  status]0; On branch master[0K[?25l
+[0K
+No commits yet[0K
+[0K
+Changes to be committed:[0K
+  (use "git rm --cached <file>..." to unstage)[0K
+[0K
+        [0;32mnew file:   .RData[0m[0K
+        [0;32mnew file:   .Rhistory[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/console06/DDD0EC2D[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/console06/INDEX001[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/pcs/debug-breakpoints.pper[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/pcs/files-pane.pper[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/pcs/packages-pane.pper[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/pcs/source-pane.pper[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/pcs/windowlayoutstate.pper[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/pcs/workbench-pane.pper[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/persistent-state[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/rmd-outputs[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/saved_source_markers[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/prop/4E4F9855[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/prop/C1806F65[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/prop/E1721342[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/prop/F85794FA[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/prop/INDEX[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/523B9F26[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/523B9F26-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/5FD80897[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/5FD80897-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/84B538FA[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/84B538FA-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/F7978B0A[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/F7978B0A-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/lock_file[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/paths[0m[0K
+        [0;32mnew file:   Feature Importance.png[0m[0K
+        [0;32mnew file:   UFCAnalysis.Rproj[0m[0K
+        [0;32mnew file:   UFCAnalysis.py[0m[0K
+        [0;32mnew file:   UFC_FeatSel.R[0m[0K
+        [0;32mnew file:   createFighterStats.R[0m[0K
+        [0;32mnew file:   data.csv[0m[0K
+        [0;32mnew file:   get_UFCData.R[0m[0K
+        [0;32mnew file:   modelAllData.R[0m[0K
+[0K
+Changes not staged for commit:[0K
+  (use "git add <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+[0K
+        [0;31mmodified:   .Rproj.user/15A994C3/console06/DDD0EC2D[0m[0K
+[0K
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[48G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>gi[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>g[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hgit status[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git add .[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push -u origin master[0K[?25h]0;  - git  push -u origin master[?25l
+[0K[?25h]0; error: src refspec master does not match any.[0K[?25l
+error: failed to push some refs to 'git@github.com:zone86/UFC_Data_Analysis.git'[0K
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git s[0K[?25ht[0Ks[0Kt[0Ku[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git stst[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git sts[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git st[0K[?25ha[0Kt[0Ku[0Ks[0K]0;  - git  status[?25l
+[0K[?25h]0; On branch master[0K[?25l
+[0K
+No commits yet[0K
+[0K
+Changes to be committed:[0K
+  (use "git rm --cached <file>..." to unstage)[0K
+[0K
+        [0;32mnew file:   .RData[0m[0K
+        [0;32mnew file:   .Rhistory[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/console06/DDD0EC2D[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/console06/INDEX001[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/pcs/debug-breakpoints.pper[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/pcs/files-pane.pper[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/pcs/packages-pane.pper[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/pcs/source-pane.pper[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/pcs/windowlayoutstate.pper[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/pcs/workbench-pane.pper[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/persistent-state[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/rmd-outputs[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/saved_source_markers[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/prop/4E4F9855[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/prop/C1806F65[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/prop/E1721342[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/prop/F85794FA[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/prop/INDEX[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/523B9F26[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/523B9F26-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/5FD80897[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/5FD80897-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/84B538FA[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/84B538FA-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/F7978B0A[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/F7978B0A-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/15A994C3/sources/s-DD9CE50D/lock_file[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/paths[0m[0K
+        [0;32mnew file:   Feature Importance.png[0m[0K
+        [0;32mnew file:   UFCAnalysis.Rproj[0m[0K
+        [0;32mnew file:   UFCAnalysis.py[0m[0K
+        [0;32mnew file:   UFC_FeatSel.R[0m[0K
+        [0;32mnew file:   createFighterStats.R[0m[0K
+        [0;32mnew file:   data.csv[0m[0K
+        [0;32mnew file:   get_UFCData.R[0m[0K
+        [0;32mnew file:   modelAllData.R[0m[0K
+[0K
+Changes not staged for commit:[0K
+  (use "git add <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+[0K
+        [0;31mmodified:   .Rproj.user/15A994C3/console06/DDD0EC2D[0m[0K
+[0K
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git r[0K[?25hm[0K[52G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git rm .[0K[?25hR[0KD[0Ka[0Kt[0Ka[0K]0;  - git  rm .RData[?25l
+[0K[?25h]0; error: the following file has changes staged in the index:[0K[?25l
+    .RData[0K
+(use --cached to keep the file, or -f to force removal)[0K
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hgit rm .RData[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git rm .RDat[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git rm .RDa[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git rm .RD[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git rm .R[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git rm .[0K[?25h]0;  - git  rm .[?25l
+[0K[?25hfatal: not removing '.' recursively without -r[0K[?25l
+[0K[?25h]0; [?25l
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git p[0K[?25hu[0Ks[0Kh[0K]0;  - git  push[?25l
+[0K[?25h]0; fatal: The current branch master has no upstream branch.[0K[?25l
+To push the current branch and set the remote as upstream, use[0K
+[0K
+    git push --set-upstream origin master[0K
+[0K
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hgit push[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git rm .[0K[?25hRData[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git status[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push -u origin master[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git status[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git add .[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push -u origin master[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git remote add origin git@github.com:zone86/UFC_Data_Analysis.git[0K[?25h]0;  - git  remote add origin git@github.com:zone86/UFC_Data_Analysis.git[?25l
+[0K[?25hfatal: remote origin already exists.[0K[?25l
+[0K[?25h]0; [?25l
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hgit remote add origin git@github.com:zone86/UFC_Data_Analysis.git[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC fight data"[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git status[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git init[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git status[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git commit -m "initial exploratory analysis of 2012 UFC fight data"[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git remote add origin git@github.com:zone86/UFC_Data_Analysis.git[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push -u origin master[0K[?25h[69G[68G[67G[65G[64G[63G[62G[61G[60G[59G[58G[57G[56G[55G[54G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push u origin master[0K[54G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push  origin master[0K[54G[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push origin master[0K[54G[?25h]0;  - git  push origin master[?25l
+[0K[?25h]0; error: src refspec master does not match any.[0K[?25l
+error: failed to push some refs to 'git@github.com:zone86/UFC_Data_Analysis.git'[0K
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git c[0K[?25hh[0Ke[0Kc[0Ko[0Ku[0Kt[0K[55G[54G[53G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git checkout[0K[54G[?25h]0;  - git  checkout[?25l
+[0K[?25h]0; fatal: You are on a branch yet to be born[0K[?25l
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git c[0K[?25hh[0Ke[0Kc[0Kk[0Ko[0Ku[0Kt[0K[58G[57G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git checkou[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git checko[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git check[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git che[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git ch[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git c[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git[0K[49G[?25h[48G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>gi[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>g[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hgit checkout[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push origin master[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git remote add origin git@github.com:zone86/UFC_Data_Analysis.git[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git rm .[0K[?25hRData[0K[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git status[0K[?25h[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git push -u origin master[0K[?25h
