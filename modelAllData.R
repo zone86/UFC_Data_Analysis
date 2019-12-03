@@ -5,7 +5,7 @@ library(mlrMBO)
 library(rJava)
 library(parallelMap)
 library(parallel)
-library(BatchJobs)
+#library(BatchJobs)
 
 # retireves data from getUFCData and also creates fighter statistcs such as striking/takedown/etc.. percentages
 source('createFighterStats.R') 
@@ -74,12 +74,15 @@ ggplot(all_feats, aes(reorder(name,-Mean), Mean)) +
 
 # according to a number of feature filtering methods, including: oneR and RF variable selection, 
 # it looks as though the initial model created in FeatSel.R contained the most significant features
-# (e.g. R_Heavier, R_Younger, R_Age, B_Age, and AgeDiff) 
-# we may proceed to perform backward elimination on some propotion of the top n (e.g. 20) features according to the filering methods
+# (i.e. R_Heavier, R_Younger, R_Age, B_Age, and AgeDiff) 
+
+# we may proceed to perform backward elimination on some propotion of the top n (e.g. 20) features according to the various available filering methods
 
 feat.ctrl.bwrd = makeFeatSelControlSequential(method='sfbs',maxit=100L,max.features=20)
-#feat.ctrl.fwrd = makeFeatSelControlSequential(method='sffs',maxit=100L,max.features=20)
 top20.bwrd = list()
+
+# forward features
+#feat.ctrl.fwrd = makeFeatSelControlSequential(method='sffs',maxit=100L,max.features=20)
 #top20.fwrd = list()
 
 imp_feats = head(all_feats$name[order(all_feats$Mean, decreasing = T)],20)
@@ -109,7 +112,12 @@ parallelStartSocket(cpus = 3, level = "mlr.selectFeatures")
   # [4] "R_Avg_Total_Strikes_Ground.Leg.Strikes_Percentage"   
   # [5] "R_Age"                                               
   # [6] "B_Age"
-  
+  fwrd.features = c("B_Avg_Total_Strikes_Distance.Leg.Strikes_Percentage", 
+  "R_Avg_Total_Strikes_Distance.Head.Kicks_Percentage",  
+   "R_Avg_Total_Strikes_Distance.Head.Strikes_Percentage",
+  "R_Avg_Total_Strikes_Ground.Leg.Strikes_Percentage",   
+   "R_Age", 
+  "B_Age")
   # fwrd.feats = selectFeatures(makeLearner('classif.randomForestSRC', predict.type = "prob"),
   #                             featSel_task_2, cv3, mlr::brier, control = feat.ctrl.fwrd)
   # 
@@ -122,7 +130,7 @@ parallelStartSocket(cpus = 3, level = "mlr.selectFeatures")
   
 ##########################################################################################
 # create models after feature selection
-Df = allDatCleaned %>%
+Df = allDatCleaned %>% select(fwrd.features, Winner)
     #select(bwrd.feats$x, Winner)
     #select(head(all_feats$name[reorder(all_feats$name,-all_feats$Mean)],16), Winner)
   
@@ -162,11 +170,11 @@ Df[idx] <- NA
 
 # use Df1 if you choose to omit NAs...
 Df1 = na.omit(Df)
-task = makeClassifTask(target = 'Winner', data = Df1)
+task = makeClassifTask(target = 'Winner', data = Df)
 
 # if you want to standardize the data, otherwise skip
 task = normalizeFeatures(obj = task, method = 'standardize',
-                                 cols = colnames(Df1)[- which(sapply(Df1,is.factor))] ) 
+                                 cols = colnames(Df)[- which(sapply(Df,is.factor))] ) 
 
 log.Mod = makeLearner('classif.logreg', predict.type = "prob")
 cvglmnet.Mod = makeLearner('classif.cvglmnet', predict.type = "prob", par.vals = list(alpha = 0)) # Ridge model
@@ -242,7 +250,8 @@ for (i in 1:20) {
 sapply(nnet.rand, function (x) mean(x))
 
 nnet.learn = generateLearningCurveData(learners=nnet.Mod,task=task, measures = list(brier,auc,acc))
-plotLearningCurve(nnet.learn) + ggtitle('Neural Net learning curve with "simple" features')
+plotLearningCurve(nnet.learn) + ggtitle('Neural Net learning curve with "simple" features after tuning
+                                        \n ')
 
 
 # Performance with just: age of red and blue fighters, red fighter weight advantage, red fighter younger advantage, & age difference
@@ -303,6 +312,10 @@ sapply(RF.rand, function (x) mean(x))
 # 0.2356254 0.6043402 0.5994297
 # after tuning grid ntree=1750,bootstrap=by.root,mtry=2,nodesize=8,sampsize=1450,samptype=swr
 # 0.2357247 0.6036547 0.6017571
+
+RF.learn = generateLearningCurveData(learners=RF.Mod,task=task, measures = list(brier,auc,acc))
+plotLearningCurve(RF.learn) + ggtitle('Random Forest learning curve after feature selection and tuning
+                                       \n(ntree=1750,bootstrap=by.root,mtry=2,nodesize=8,sampsize=1450,samptype=swr)')
 
 rpart.rand = data.frame(matrix(nrow = 0, ncol = 3))
 
@@ -602,6 +615,7 @@ gc()
 RF.param
 RF.param[[1]]
 
-RF.params = list(ntree=1647,bootstrap='by.root',mtry=1,nodesize=1,sampsize=1524,samptype='swr')
-RF.Mod = setHyperPars(RF.Mod, par.vals = RF.param[[1]] )
+RF.params = list(ntree=1750,bootstrap='by.root',mtry=2,nodesize=8,sampsize=1450,samptype='swr')
+
+RF.Mod = setHyperPars(RF.Mod, par.vals = RF.params )
 RF.Mod

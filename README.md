@@ -20,13 +20,17 @@ createFighterStatistics.R & get_UFCData.R files. And contains a second attempt t
 3.0. Data Exploration & Modelling
 I initally explored the data in UFC_featSel.R. Here I found that the red fighter, age (being younger generally, but peak winning age was 31 years old), and a weight advantage were significantly correlated with winning. I later discovered that the red fighter advantage is due to the fact the red fighter is designated by the UFC based on the more popular and ranked fighter. In championship fights, the reigning champion is designated the red fighter status. This is a tradition that comes from boxing. Therefore, I beleive there is likely an interaction between the red fighter status and being the younger opponent, as well as being the heavier opponent, and decided to include a "red younger" and "red heavier" as a binary features in modelling the data.
 
-When predicting if the red fighter or the blue fighter would win, the best performing model (a neural net) containing the aforementioned features alone intially produced average model accuracy of % (Brier: .; AUC: .) over 30 random seed iterations. The learning curve for this model showed that after sampling 100% of the data performance was: Brier: .231; AUC: .626; Acc: .620. 
+When predicting if the red fighter or the blue fighter would win, the best performing model (a neural net) containing the aforementioned features alone intially produced average model accuracy of 60.31055% (Brier: 0.2352274; AUC: 0.6058100) with 3 fold cross-valdation over 30 random seed iterations. The learning curve for this model showed that after sampling 100% of the data performance was: Brier: .231; AUC: .626; Acc: .620 (see "NeuralNet.LearningCurve"). Following this was performance from the logistic regression model (Brier: .235; AUC: .620; Acc: .606), and the ridge regression model (Brier: .238; AUC: .604; Acc: .582).
 
-After performing feature filering on fighter metric percentages, and experimenting with a variety features using a number of different feature selection methods, it seemed as though the features in the inital model were the most important, and ultimately performance could not be imporved upon.
+I then included fighter metric percentages into the model and performed feature filtering using a variety of methods (e.g. random forest feature selection, information gain with FSelector and Random Forest, etc...). After experimenting with a variety features using a number of different feature selection learners (i.e. rpart, and RandomForestSRC) using backward elimination. 
 
-Therefore knowing striking percentages might be mostly irrelevent when you consider the size of the effect of the age's of the two fighters, the difference between the two, and if the red fighter has a weight advantage. 
+However, it seemed as though the features in the inital model were the most important (see "FeatureFiltering.OneR" & "FeatureFiltering.RFVarSelect"), and ultimately performance could not be improved upon. Therefore knowing striking percentages might be mostly irrelevent when you consider the size of the effect of the age's of the two fighters, the difference between the ages of the two, and if the red fighter has a weight advantage. 
 
-In summary, the most likely outcome for a red fighter's victory is when the red fighter is closer to their prime fighting age (about 31) than their blue opponent, and when the blue opponent is past their prime fighting age.
+In summary, the most likely outcome for a red fighter's victory is when:
+ * They have a weight advantage
+ * They are closer to their prime fighting age (about 31) than their blue opponent 
+ * When their blue opponent is past their prime fighting age 
+ * When there is a large difference in age between the two fighters
 
 ######################################################################################
 Limitations And Future Exploration

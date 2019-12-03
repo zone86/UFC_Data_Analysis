@@ -1,58 +1,28 @@
-[0m[0KMicrosoft Windows [Version 6.1.7601][0K[?25l
+[0mMicrosoft Windows [Version 6.1.7601][0K[?25l
 Copyright (c) 2009 Microsoft Corporation.  All rights reserved.[0K
 [0K
 C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K]0;  - git  status[?25l
-[0K[?25hOn branch master[0K[?25l
-Changes to be committed:[0K
-  (use "git reset HEAD <file>..." to unstage)[0K
-[0K
-        [0;32mmodified:   .Rhistory[0m[0K
-        [0;32mmodified:   .Rproj.user/15A994C3/console06/DDD0EC2D[0m[0K
-        [0;32mmodified:   .Rproj.user/15A994C3/console06/INDEX001[0m[0K
-        [0;32mmodified:   .Rproj.user/15A994C3/pcs/windowlayoutstate.pper[0m[0K
-        [0;32mmodified:   .Rproj.user/15A994C3/pcs/workbench-pane.pper[0m[0K
-        [0;32mmodified:   .Rproj.user/15A994C3/sources/prop/4E4F9855[0m[0K
-        [0;32mmodified:   .Rproj.user/15A994C3/sources/prop/C1806F65[0m[0K
-        [0;32mmodified:   .Rproj.user/15A994C3/sources/prop/E1721342[0m[0K
-        [0;32mmodified:   .Rproj.user/15A994C3/sources/prop/F85794FA[0m[0K
-        [0;32mmodified:   UFC_FeatSel.R[0m[0K
-        [0;32mmodified:   createFighterStats.R[0m[0K
-        [0;32mmodified:   get_UFCData.R[0m[0K
-        [0;32mmodified:   modelAllData.R[0m[0K
+[0K[?25h]0; On branch master[0K[?25l
+Your branch is up to date with 'origin/master'.[0K
 [0K
 Changes not staged for commit:[0K
   (use "git add/rm <file>..." to update what will be committed)[0K
   (use "git checkout -- <file>..." to discard changes in working directory)[0K
 [0K
-        [0;31mmodified:   .Rhistory[0m[0K
         [0;31mmodified:   .Rproj.user/15A994C3/console06/DDD0EC2D[0m[0K
         [0;31mmodified:   .Rproj.user/15A994C3/console06/INDEX001[0m[0K
-        [0;31mmodified:   .Rproj.user/15A994C3/pcs/source-pane.pper[0m[0K
-        [0;31mmodified:   .Rproj.user/15A994C3/pcs/windowlayoutstate.pper[0m[0K
+        [0;31mmodified:   .Rproj.user/15A994C3/pcs/workbench-pane.pper[0m[0K
         [0;31mmodified:   .Rproj.user/15A994C3/sources/prop/4E4F9855[0m[0K
-        [0;31mmodified:   .Rproj.user/15A994C3/sources/prop/C1806F65[0m[0K
-        [0;31mmodified:   .Rproj.user/15A994C3/sources/prop/E1721342[0m[0K
-        [0;31mmodified:   .Rproj.user/15A994C3/sources/prop/F85794FA[0m[0K
-        [0;31mdeleted:    Feature Importance.png[0m[0K
-        [0;31mmodified:   UFC_FeatSel.R[0m[0K
-        [0;31mmodified:   createFighterStats.R[0m[0K
-        [0;31mmodified:   get_UFCData.R[0m[0K
+        [0;31mmodified:   README.md[0m[0K
+        [0;31mdeleted:    RF.LearningCurve.png[0m[0K
         [0;31mmodified:   modelAllData.R[0m[0K
 [0K
 Untracked files:[0K
   (use "git add <file>..." to include in what will be committed)[0K
 [0K
-        [0;31mFeatureFiltering-Importance.png[0m[0K
-        [0;31mFeatureFiltering-InformationGain.png[0m[0K
-        [0;31mFeatureFiltering-OneR.png[0m[0K
-        [0;31mFeatureFiltering-RFVarSelect.png[0m[0K
-        [0;31mFeatureFiltering-SymetricalUncertainty.png[0m[0K
-        [0;31mLogisticReg.LearningCurve.png[0m[0K
-        [0;31mNeuralNet.LearningCurve.png[0m[0K
-        [0;31mREADME.md[0m[0K
-        [0;31mRF.LearningCurve.png[0m[0K
-        [0;31mRidgeReg.LearningCurve.png[0m[0K
+        [0;31mRandomForest.LearningCurve.png[0m[0K
 [0K
-[0K[?25h]0; [?25l
-C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git a[0K[?25hd[0Kd[0K[53G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git add .[0K[?25h]0;  - git  add .[?25l
+no changes added to commit (use "git add" and/or "git commit -a")[0K
+[0K
+C:\Users\nija\Documents\UFCData\UFCAnalysis>[0K[?25hg[0Ki[0Kt[0K[49G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git a[0K[?25hd[0Kd[0K[53G[?25lC:\Users\nija\Documents\UFCData\UFCAnalysis>git add .[0K[?25h[55G]0;  - git  add . [?25l
 [0K[?25h
