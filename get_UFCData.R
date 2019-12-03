@@ -1,3 +1,4 @@
+
 library(dplyr)
 UFCDat = read.csv('data.csv')
 
@@ -15,6 +16,8 @@ fixEffects =  select(UFCDat.1, contains('Round'))
 fixEffects = mutate(fixEffects, Winner = UFCDat.1$winner, WinBy = UFCDat.1$winby)
 
 # create new features from random effects
+randEffects$R_Younger = randEffects$R_Age < randEffects$B_Age 
+
 randEffects$B_BMI = randEffects$B_Weight/(randEffects$B_Height/100)^2
 randEffects$R_BMI = randEffects$R_Weight/(randEffects$R_Height/100)^2
 
@@ -37,7 +40,7 @@ randEffects$B_winner[randEffects$winner=="blue"] = 1
 randEffects$R_winner = 0
 randEffects$R_winner[randEffects$winner=="red"] = 1
 
-# create new feature how much heavier was the fighter 
+# create new feature for if the red fighter was heavier   
 UFCDat.1$R_Heavier = UFCDat.1$R_Weight > UFCDat.1$B_Weight
 UFCDat.1$B_Heavier = UFCDat.1$B_Weight > UFCDat.1$R_Weight
 
@@ -60,13 +63,13 @@ totalRounds = mutate(totalRounds, R_Name = randEffects$R_Name, B_Name =randEffec
 redRounds = totalRounds %>% select(contains('R_'))
 blueRounds = totalRounds %>% select(contains('B_'))
 
-# create variabnles which feature the differences in fight metrics between the fighters
+# create variables which show the differences in fight metrics between the fighters for each fight
 roundDiffs = data.frame(matrix(nrow = nrow(blueRounds), ncol = ncol(blueRounds)))
 colnames(roundDiffs) = colnames(blueRounds)
 colnames(roundDiffs) = gsub("B_","Diff",colnames(roundDiffs))
 
 for (i in 1:ncol(blueRounds)){
-  roundDiffs[,i] = redRounds[,i] - blueRounds[,i]   
+  roundDiffs[,i] = as.numeric(redRounds[,i]) - as.numeric(blueRounds[,i])
 }
 
 roundDiffs = mutate(roundDiffs, R_Name = randEffects$R_Name, B_Name =randEffects$B_Name, R_ID = randEffects$R_ID, B_ID =randEffects$B_ID, Winner = fixEffects$Winner)
